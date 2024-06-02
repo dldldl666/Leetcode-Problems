@@ -21,7 +21,7 @@
 // 思路上的关键点就是，对于链表问题，想要返回头结点，必须创建一个head指针指向头结点，然后再创立另一个tail指针不断遍历，只有这样才能返回整个链表。
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode ans;
+        //ListNode ans;
         ListNode head = null;
         ListNode tail = null;
         int tensdigit = 0;
