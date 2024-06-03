@@ -83,7 +83,7 @@ class Solution1right {
         // 再递推左边界，左边界的上限可以设置宽松一些
         for (int L = 2; L <= len; L++){
             for (int i = 0; i < len; i++){
-                int j = L - i - 1;
+                int j = L + i - 1;
                 // If j is bigger than length, break;
                 if (j >= len){
                     break;
